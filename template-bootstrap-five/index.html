@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-absolute w-100">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#">Pagina para banca.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -25,13 +25,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          <li class="nav-item d-flex">
             <a class="nav-link text-dark" aria-current="page" href="#">Personas</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex">
             <a class="nav-link text-dark" href="#">Empresas</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex">
             <a class="nav-link text-dark" href="#">Nosotros</a>
           </li>
           <li class="nav-item">
@@ -44,7 +44,40 @@
       </div>
     </div>
   </nav>
-
+  <section id="hero">
+      <div class="row h-100 w-100">
+        <div class="col-lg-6 d-flex">
+          <div class="content p-4 align-self-center">
+            <small class="d-block text-primary"><span class="badge bg-primary">Nuevo</span> Adquiere nuestras tarjetas
+              de crédito.</small>
+            <h1 class="display-4 fw-bold my-4">La mejor banca digital</h1>
+            <p class="lead">Dile adiós a los bancos tradicionales.......</p>
+            <a href="" class="btn btn-primary btn-lg mb-5">Abre tu cuenta hoy</a>
+            <div class="d-flex">
+              <div class="d-flex me-4">
+                <img src="images/logo-apple.svg" alt="" class="me-3">
+                <div>
+                  <small>Consíguela en</small>
+                  <p class="fw-bold mb-0">App Store</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <img src="images/logo-playstore.svg" alt="" class="me-3">
+                <div>
+                  <small>Disponible en</small>
+                  <p class="fw-bold mb-0">Play Store</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex bg-light">
+          <div class="content p-4 align-self-center mx-auto">
+            <img src="images/phone.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+  </section>
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
